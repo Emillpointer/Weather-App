@@ -22,12 +22,28 @@ body {
     justify-content: center;
 }
 
-button.search-btn {
+button {
     margin: .5em;
     border-radius: 50%;
     border: none;
-    width: 2.5em;
-    height: 2.5em;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: lightgrey;
+}
+
+button.search-btn {
+    /* margin: .5em; */
+    border-radius: 50%;
+    border: none;
+    /* width: 2.5em;
+    height: 2.5em; */
     outline: none;
 }
 
